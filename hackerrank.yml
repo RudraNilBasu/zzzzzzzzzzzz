@@ -1,0 +1,11 @@
+---
+version: 1.0
+configuration:
+  has_webserver: true
+  ide_config:
+    default_open_files:
+    - app/src/main/java/com/example/octavia/FullscreenActivity.kt
+    project_menu:
+      run: gradle build
+      install: gradle build
+      test: gradle build
